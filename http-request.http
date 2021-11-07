@@ -1,0 +1,50 @@
+###
+GET https://api.n.exchange/en/api/v1/price/BTCLTC/latest/?market_code=nex
+
+<> 2021-11-07T011135.200.json
+
+###
+POST http://localhost:8080/api/v1/students
+Content-Type: application/json
+
+{
+  "name": "Boris",
+  "email": "boris@gmail.com",
+  "dob": "1994-10-3"
+}
+
+<> 2021-11-07T025443.400.json
+<> 2021-11-07T024912.500.json
+
+###
+PUT http://localhost:8080/api/v1/students/69?name=Azan&email=azan@gmail.com&dob=1994-08-03
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john.doe@gmail.com",
+  "dob": "1994-10-03"
+}
+
+<> 2021-11-07T021649.400.json
+<> 2021-11-07T021647.400.json
+<> 2021-11-07T021456.400.json
+<> 2021-11-07T021421.400.json
+<> 2021-11-07T020719.400.json
+<> 2021-11-07T014435.400.json
+<> 2021-11-07T011403.500.json
+
+###
+DELETE http://localhost:8080/api/v1/students/71
+
+<> 2021-11-07T011242.500.json
+<> 2021-11-07T011209.500.json
+<> 2021-11-07T011043.500.json
+
+###
+GET http://localhost:8080/api/v1/students
+
+<> 2021-11-07T030843.500.json
+<> 2021-11-07T030813.500.json
+
+###
