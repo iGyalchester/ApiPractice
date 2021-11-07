@@ -4,6 +4,8 @@ import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.Period;
 
+//java -jar notademo-001-SNAPSHOT.jar --server.port=8080 to change port
+
 @Entity
 @Table
 public class Student {
