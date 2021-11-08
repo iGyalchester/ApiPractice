@@ -5,6 +5,30 @@ import java.time.LocalDate;
 import java.time.Period;
 
 //java -jar notademo-001-SNAPSHOT.jar --server.port=8080 to change port
+//GET http://localhost:8080/api/v1/student
+/*
+change student info
+PUT http://localhost:8080/api/v1/student/3
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "boris@gmail.com",
+  "dob": "1994-10-03"
+}
+ */
+
+/*
+delete student
+DELETE http://localhost:8080/api/v1/student/3
+ */
+
+/*
+PUT http://localhost:8080/api/v1/student/115?name=Jonny Sins&email=jonnysins@gmail.com&dob=1997-12-22
+Accept: application/json
+Content-Type: application/json
+ */
 
 @Entity
 @Table
